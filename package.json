@@ -1,0 +1,37 @@
+{
+  "name": "tamaiti-promo-studio",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "typecheck": "tsc",
+    "bake": "node scripts/bake-product-data.mjs",
+    "art": "python art/paint.py",
+    "audio": "python audio/synth_music.py && python audio/synth_sfx.py",
+    "stills": "node capture/stills.mjs",
+    "sheet": "node capture/tile-contact.mjs",
+    "verify": "node capture/verify.mjs",
+    "render": "node scripts/render.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.522",
+    "@remotion/cli": "4.0.522",
+    "@remotion/google-fonts": "4.0.522",
+    "@remotion/renderer": "4.0.522",
+    "lucide-react": "^0.544.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.522"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.2.7",
+    "esbuild": "0.25.0",
+    "typescript": "5.9.3"
+  }
+}

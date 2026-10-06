@@ -1,0 +1,186 @@
+{
+  "provenance": {
+    "source": "synthesised by audio/synth_music.py in this repository",
+    "commercialUse": true,
+    "note": "Original score and synthesis; no third-party samples, no generated-music service."
+  },
+  "bpm": 96.0,
+  "beatSec": 0.625,
+  "barSec": 2.5,
+  "beds": {
+    "15": {
+      "file": "audio/bed-15.wav",
+      "durationSec": 15,
+      "bars": 6,
+      "downbeats": [
+        0.0,
+        2.5,
+        5.0,
+        7.5,
+        10.0,
+        12.5
+      ],
+      "sections": [
+        {
+          "name": "intro",
+          "startBar": 0,
+          "bars": 1,
+          "startSec": 0.0,
+          "endSec": 2.5
+        },
+        {
+          "name": "chorus",
+          "startBar": 1,
+          "bars": 4,
+          "startSec": 2.5,
+          "endSec": 12.5
+        },
+        {
+          "name": "end",
+          "startBar": 5,
+          "bars": 1,
+          "startSec": 12.5,
+          "endSec": 15.0
+        }
+      ]
+    },
+    "30": {
+      "file": "audio/bed-30.wav",
+      "durationSec": 30,
+      "bars": 12,
+      "downbeats": [
+        0.0,
+        2.5,
+        5.0,
+        7.5,
+        10.0,
+        12.5,
+        15.0,
+        17.5,
+        20.0,
+        22.5,
+        25.0,
+        27.5
+      ],
+      "sections": [
+        {
+          "name": "intro",
+          "startBar": 0,
+          "bars": 1,
+          "startSec": 0.0,
+          "endSec": 2.5
+        },
+        {
+          "name": "verse",
+          "startBar": 1,
+          "bars": 4,
+          "startSec": 2.5,
+          "endSec": 12.5
+        },
+        {
+          "name": "chorus",
+          "startBar": 5,
+          "bars": 4,
+          "startSec": 12.5,
+          "endSec": 22.5
+        },
+        {
+          "name": "lift",
+          "startBar": 9,
+          "bars": 2,
+          "startSec": 22.5,
+          "endSec": 27.5
+        },
+        {
+          "name": "end",
+          "startBar": 11,
+          "bars": 1,
+          "startSec": 27.5,
+          "endSec": 30.0
+        }
+      ]
+    },
+    "60": {
+      "file": "audio/bed-60.wav",
+      "durationSec": 60,
+      "bars": 24,
+      "downbeats": [
+        0.0,
+        2.5,
+        5.0,
+        7.5,
+        10.0,
+        12.5,
+        15.0,
+        17.5,
+        20.0,
+        22.5,
+        25.0,
+        27.5,
+        30.0,
+        32.5,
+        35.0,
+        37.5,
+        40.0,
+        42.5,
+        45.0,
+        47.5,
+        50.0,
+        52.5,
+        55.0,
+        57.5
+      ],
+      "sections": [
+        {
+          "name": "intro",
+          "startBar": 0,
+          "bars": 2,
+          "startSec": 0.0,
+          "endSec": 5.0
+        },
+        {
+          "name": "verse",
+          "startBar": 2,
+          "bars": 4,
+          "startSec": 5.0,
+          "endSec": 15.0
+        },
+        {
+          "name": "verse2",
+          "startBar": 6,
+          "bars": 4,
+          "startSec": 15.0,
+          "endSec": 25.0
+        },
+        {
+          "name": "chorus",
+          "startBar": 10,
+          "bars": 4,
+          "startSec": 25.0,
+          "endSec": 35.0
+        },
+        {
+          "name": "breakdown",
+          "startBar": 14,
+          "bars": 4,
+          "startSec": 35.0,
+          "endSec": 45.0
+        },
+        {
+          "name": "chorus2",
+          "startBar": 18,
+          "bars": 4,
+          "startSec": 45.0,
+          "endSec": 55.0
+        },
+        {
+          "name": "end",
+          "startBar": 22,
+          "bars": 2,
+          "startSec": 55.0,
+          "endSec": 60.0
+        }
+      ]
+    }
+  }
+}

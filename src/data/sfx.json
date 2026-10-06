@@ -1,0 +1,161 @@
+{
+  "provenance": {
+    "source": "synthesised by audio/synth_sfx.py in this repository",
+    "commercialUse": true
+  },
+  "roles": {
+    "click": {
+      "gainDb": -13,
+      "duckDb": 0,
+      "variants": [
+        "click-1",
+        "click-2",
+        "click-3"
+      ]
+    },
+    "type": {
+      "gainDb": -19,
+      "duckDb": 0,
+      "variants": [
+        "key-1",
+        "key-2",
+        "key-3",
+        "key-4"
+      ]
+    },
+    "move": {
+      "gainDb": -17,
+      "duckDb": 0,
+      "variants": [
+        "whoosh-in",
+        "whoosh-out"
+      ],
+      "texture": true
+    },
+    "appear": {
+      "gainDb": -15,
+      "duckDb": 0,
+      "variants": [
+        "pop-1",
+        "pop-2",
+        "pop-3"
+      ]
+    },
+    "tick": {
+      "gainDb": -20,
+      "duckDb": 0,
+      "variants": [
+        "tick-1",
+        "tick-2",
+        "tick-3"
+      ]
+    },
+    "reward": {
+      "gainDb": -11,
+      "duckDb": -3,
+      "variants": [
+        "chime-up",
+        "chime-done"
+      ]
+    },
+    "end": {
+      "gainDb": -8,
+      "duckDb": -2,
+      "variants": [
+        "landing"
+      ]
+    }
+  },
+  "files": {
+    "click-1": {
+      "file": "audio/sfx/click-1.wav",
+      "durationSec": 0.09,
+      "onsetSec": 0.0005
+    },
+    "click-2": {
+      "file": "audio/sfx/click-2.wav",
+      "durationSec": 0.09,
+      "onsetSec": 0.0001
+    },
+    "click-3": {
+      "file": "audio/sfx/click-3.wav",
+      "durationSec": 0.09,
+      "onsetSec": 0.0004
+    },
+    "key-1": {
+      "file": "audio/sfx/key-1.wav",
+      "durationSec": 0.06,
+      "onsetSec": 0.0002
+    },
+    "key-2": {
+      "file": "audio/sfx/key-2.wav",
+      "durationSec": 0.06,
+      "onsetSec": 0.0001
+    },
+    "key-3": {
+      "file": "audio/sfx/key-3.wav",
+      "durationSec": 0.06,
+      "onsetSec": 0.0001
+    },
+    "key-4": {
+      "file": "audio/sfx/key-4.wav",
+      "durationSec": 0.06,
+      "onsetSec": 0.0003
+    },
+    "whoosh-in": {
+      "file": "audio/sfx/whoosh-in.wav",
+      "durationSec": 0.55,
+      "onsetSec": 0.1534
+    },
+    "whoosh-out": {
+      "file": "audio/sfx/whoosh-out.wav",
+      "durationSec": 0.5,
+      "onsetSec": 0.0984
+    },
+    "pop-1": {
+      "file": "audio/sfx/pop-1.wav",
+      "durationSec": 0.16,
+      "onsetSec": 0.0014
+    },
+    "pop-2": {
+      "file": "audio/sfx/pop-2.wav",
+      "durationSec": 0.16,
+      "onsetSec": 0.0014
+    },
+    "pop-3": {
+      "file": "audio/sfx/pop-3.wav",
+      "durationSec": 0.16,
+      "onsetSec": 0.0015
+    },
+    "chime-up": {
+      "file": "audio/sfx/chime-up.wav",
+      "durationSec": 1.525,
+      "onsetSec": 0.0805
+    },
+    "chime-done": {
+      "file": "audio/sfx/chime-done.wav",
+      "durationSec": 1.84,
+      "onsetSec": 0.062
+    },
+    "tick-1": {
+      "file": "audio/sfx/tick-1.wav",
+      "durationSec": 0.25,
+      "onsetSec": 0.0015
+    },
+    "tick-2": {
+      "file": "audio/sfx/tick-2.wav",
+      "durationSec": 0.25,
+      "onsetSec": 0.0017
+    },
+    "tick-3": {
+      "file": "audio/sfx/tick-3.wav",
+      "durationSec": 0.25,
+      "onsetSec": 0.0015
+    },
+    "landing": {
+      "file": "audio/sfx/landing.wav",
+      "durationSec": 1.8,
+      "onsetSec": 0.0032
+    }
+  }
+}
